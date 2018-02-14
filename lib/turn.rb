@@ -4,6 +4,10 @@ end
 
 def index_is_valid?(n)
   if(n < 0 || n > 8)
+    return false;
+  else
+    return true;
+  end
 end
 
 def display_board(array)
