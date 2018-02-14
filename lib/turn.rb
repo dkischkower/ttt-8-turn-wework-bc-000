@@ -2,6 +2,10 @@ def convert_to_index(user_input)
   return user_input.to_i - 1
 end
 
+def index_is_valid?(index)
+  
+end
+
 def display_board(array)
   puts " #{array[0]} | #{array[1]} | #{array[2]} "
   puts "-----------"
