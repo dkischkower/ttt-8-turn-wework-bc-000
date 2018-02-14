@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
-puts "
+puts "Please enter 1-9:"
+input = gets.strip
