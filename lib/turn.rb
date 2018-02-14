@@ -30,7 +30,7 @@ def turn(board)
   index = convert_to_index(gets.strip)
   if(index_is_valid?(board,index))
     #puts "valid"
-    move(board,0,"X")
+    move(board,index,"X")
   elsif
     #puts "not valid"
   end
