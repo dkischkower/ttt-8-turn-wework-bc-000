@@ -13,6 +13,11 @@ end
 
 def turn
   puts "Please enter 1-9:"
-  input = convert_to_index(gets.strip)
+  index = convert_to_index(gets.strip)
+  if(index_is_valid?(index))
+    
+  elsif
+  
+  end
 end
 
