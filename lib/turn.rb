@@ -2,12 +2,19 @@ def convert_to_index(user_input)
   return user_input.to_i - 1
 end
 
-def index_is_valid?(n)
+def index_is_valid?(board, n)
   if(n < 0 || n > 8)
-    return false;
+    return false
   else
-    return true;
+    if(board[n] == " ")
+      return true
+    end
+    return false
   end
+end
+
+def move(board, index, input)
+  
 end
 
 def display_board(array)
@@ -19,7 +26,7 @@ def display_board(array)
 
 end 
 
-def turn
+def turn(board)
   puts "Please enter 1-9:"
   index = convert_to_index(gets.strip)
   if(index_is_valid?(index))
