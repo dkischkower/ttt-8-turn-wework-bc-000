@@ -2,8 +2,8 @@ def convert_to_index(user_input)
   return user_input.to_i - 1
 end
 
-def index_is_valid?(index)
-  
+def index_is_valid?(n)
+  if(n < 0 || n > 8)
 end
 
 def display_board(array)
