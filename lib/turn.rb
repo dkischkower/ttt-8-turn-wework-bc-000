@@ -34,6 +34,7 @@ def turn(board)
     display_board(board)
   elsif
     #puts "not valid"
+    turn(board)
   end
 end
 
