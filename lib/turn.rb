@@ -14,7 +14,7 @@ def index_is_valid?(board, n)
 end
 
 def move(board, index, input)
-  
+  board[index] = input
 end
 
 def display_board(array)
