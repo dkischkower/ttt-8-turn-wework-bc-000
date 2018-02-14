@@ -23,16 +23,15 @@ def display_board(array)
   puts " #{array[3]} | #{array[4]} | #{array[5]} "
   puts "-----------"
   puts " #{array[6]} | #{array[7]} | #{array[8]} "
-
 end 
 
 def turn(board)
   puts "Please enter 1-9:"
   index = convert_to_index(gets.strip)
   if(index_is_valid?(index))
-    
+    puts "valid"
   elsif
-  
+    puts "not valid"
   end
 end
 
