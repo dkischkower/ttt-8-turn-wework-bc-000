@@ -28,7 +28,7 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   index = convert_to_index(gets.strip)
-  if(index_is_valid?(index))
+  if(index_is_valid?(board,index))
     puts "valid"
   elsif
     puts "not valid"
