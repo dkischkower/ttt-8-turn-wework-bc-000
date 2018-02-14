@@ -31,6 +31,7 @@ def turn(board)
   if(index_is_valid?(board,index))
     #puts "valid"
     move(board,index,"X")
+    display_board(board)
   elsif
     #puts "not valid"
   end
